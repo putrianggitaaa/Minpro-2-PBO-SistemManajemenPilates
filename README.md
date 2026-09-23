@@ -119,18 +119,22 @@ Menu member berisi 2 sub menu yaitu lihat dan tambah member yang fungsinya sebag
 
 * **1. Tambah Member**
 
-<img width="526" height="387" alt="image" src="https://github.com/user-attachments/assets/2fa26858-c7d5-4cc9-91de-35d149359f6f" />
+<img width="517" height="382" alt="image" src="https://github.com/user-attachments/assets/b2370b67-6dc1-4df6-9912-314440e0dcbf" />
+
 
 Pada sub menu ini, pengguna dapat menambahkan member baru yang akan bergabung untuk mengikuti kelas di studio dengan memasukkan ID member, nama member, nomor telepon, usia dan jenis kelamin member tersebut.
 
 * **2. Lihat Member**
 
-<img width="533" height="418" alt="image" src="https://github.com/user-attachments/assets/2c9ccc84-f904-400c-88c4-f20eade80510" />
+<img width="537" height="423" alt="image" src="https://github.com/user-attachments/assets/0b38ed01-e904-4a16-83e9-88bc863ffb7b" />
+
 
 Pada sub menu ini, pengguna dapat melihat daftar member yang telah terdaftar pada sistem.
 
 * **3. Kembali**
-<img width="562" height="322" alt="image" src="https://github.com/user-attachments/assets/51051757-d16a-40a5-9a5b-a36587c75953" />
+
+<img width="557" height="335" alt="image" src="https://github.com/user-attachments/assets/a46b10a8-69cd-40ba-ba02-a911879235f5" />
+
 
 Pada sub menu ini, pengguna dapat kembali ke menu utama program.
 
