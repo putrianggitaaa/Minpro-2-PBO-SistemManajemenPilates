@@ -140,15 +140,51 @@ Pada sub menu ini, pengguna dapat kembali ke menu utama program.
 
 ### Menu Instruktur
 
+<img width="543" height="223" alt="image" src="https://github.com/user-attachments/assets/efb1cc9b-20df-42bc-95e8-a794fe3e54f5" />
+
+Menu instruktur berisi 2 sub menu yaitu lihat dan tambah instruktur yang fungsinya sebagai berikut:
+
 * **1. Tambah Instruktur**
+
+  <img width="652" height="420" alt="image" src="https://github.com/user-attachments/assets/0e8f5069-3467-4d11-95d6-d039c92a9a0b" />
+
+Pada sub menu ini, pengguna dapat menambahkan instruktur baru yang akan bergabung untuk memandu kelas di studio dengan memasukkan ID instruktur, nama instruktur, spesialisasi, nomor telepon, dan jenis kelamin instruktur tersebut.
+
 * **2. Lihat Instruktur**
+
+<img width="550" height="471" alt="image" src="https://github.com/user-attachments/assets/88c32ecb-e897-4da7-9b2b-d0dd12573a02" />
+
+Pada sub menu ini, pengguna dapat melihat daftar instruktur yang telah terdaftar pada sistem.
+
 * **3. Kembali**
-  
+
+<img width="552" height="363" alt="image" src="https://github.com/user-attachments/assets/8a4f46ae-c333-4c73-9c72-c1e90d2034be" />
+
+Pada sub menu ini, pengguna dapat kembali ke menu utama program.
+
 ### Menu Jenis Kelas
 
+<img width="563" height="312" alt="image" src="https://github.com/user-attachments/assets/c0d3964b-e548-4527-86f9-2b221e44a211" />
+
+Menu jenis kelas berisi 2 sub menu yaitu lihat dan tambah jenis kelas yang fungsinya sebagai berikut:
+
 * **1. Tambah Jenis Kelas**
+  
+<img width="593" height="421" alt="image" src="https://github.com/user-attachments/assets/fb3b7744-cfd1-4203-b66e-432936f2de9a" />
+
+Pada sub menu ini, pengguna dapat menambahkan jenis kelas baru yang akan diadakan di studio dengan memasukkan ID jenis, nama pilates, level, durasi, dan jenis sesi dari jenis kelas tersebut.
+
 * **2. Lihat Jenis Kelas**
+
+<img width="511" height="732" alt="image" src="https://github.com/user-attachments/assets/ecf18a2b-4205-483e-b349-20b4c638c110" />
+
+Pada sub menu ini, pengguna dapat melihat daftar jenis kelas yang telah terdaftar pada sistem.
+
 * **3. Kembali**
+
+<img width="593" height="280" alt="image" src="https://github.com/user-attachments/assets/a25594ba-52d9-4cec-a6de-498a02d751d7" />
+
+Pada sub menu ini, pengguna dapat kembali ke menu utama program.
 
 ### Menu Daftar Kelas
 
