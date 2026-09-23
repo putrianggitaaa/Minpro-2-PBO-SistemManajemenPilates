@@ -188,8 +188,43 @@ Pada sub menu ini, pengguna dapat kembali ke menu utama program.
 
 ### Menu Daftar Kelas
 
-* **1. Tambah Instruktur**
-* **2. Lihat Instruktur**
-* **3. Kembali**
+<img width="522" height="282" alt="image" src="https://github.com/user-attachments/assets/183c5e60-2844-4d5d-83f1-83f5fbef6bd5" />
+
+Menu pendaftaran kelas berisi 4 sub menu yaitu lihat, tambah, hapus, dan perbarui daftar kelas yang fungsinya sebagai berikut:
+
+* **1. Lihat Pendaftaran Kelas**
+
+<img width="566" height="323" alt="image" src="https://github.com/user-attachments/assets/d88d4c4d-a8a0-4860-9957-103a3ba1d0eb" />
+
+Pada sub menu ini, pengguna dapat melihat daftar kelas yang telah terdaftar pada sistem dan siap untuk dilaksanakan pada studio. Data ini berisi identitas member yang melaksanakan kelas, instruktur yang memandu kelas, jenis kelas yang dilaksanakan dan waktunya.
+
+* **2. Pendaftaran Kelas**
+
+<img width="548" height="251" alt="image" src="https://github.com/user-attachments/assets/263573bb-a879-44cb-a0fa-44b0393695d1" />
+
+Pada sub menu ini, sistem akan menampilkan id member, id instruktur, dan id jenis kelas agar pengguna dapat memilih member, instruktur, dan jenis kelas apa yang ingin ditambahkan. Setelah itu, akan muncul output dimana kelas berhasil ditambahkan dan tertera identitas member, instruktur, dan jenis kelas yang akan dilaksanakan.
+
+* **3. Hapus Kelas**
+
+<img width="557" height="190" alt="image" src="https://github.com/user-attachments/assets/3676ebd4-fba9-4134-8166-c2932b38d4a1" />
+
+Pada sub menu ini, sistem akan mengarahkan pengguna untuk menginput ID kelas yang akan dihapus. Selanjutnya, sistem akan menghapus kelas sesuai dengan ID yang di input oleh pengguna. Sub menu ini dapat digunakan apabila sesi kelas telah selesai dilaksanakan dan member tidak ingin memperpanjang sesi kelas nya kembali.
+
+* **4. Update Kelas**
+
+<img width="537" height="406" alt="image" src="https://github.com/user-attachments/assets/6b2cfdbe-79ba-44f5-b8f4-a87c2797a687" />
+
+Pada sub menu ini, sistem akan mengarahkan pengguna untuk melakukan update terhadap status kelas yang ada. Update bisa berupa Terjadwal, Selesai, atau Batal. Sub Menu ini berguna untuk memudahkan pengelola dalam menandai status kelas yang telah terdaftar.
+
+* **5. Kembali**
+  
+<img width="571" height="347" alt="image" src="https://github.com/user-attachments/assets/56864935-369e-478b-ab72-7100b43ff3c3" />
+
+Pada sub menu ini, pengguna dapat kembali ke menu utama program.
   
 ### Menu Keluar dari Program
+
+<img width="557" height="395" alt="image" src="https://github.com/user-attachments/assets/4e76cefa-fdd6-496d-8c36-315a31e06323" />
+
+
+Pada menu ini, pengguna akan diarahkan untuk keluar dari sistem.
