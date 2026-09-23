@@ -55,18 +55,25 @@ Class `Service` menangani proses utama yaitu CRUD pada data member, instruktur, 
 Class 'InputValidator` digunakan untuk melakukan validasi terhadap input pengguna, dalam program ini menggunakan validasi input sebagai berikut:
 
 * Input Integer
+  
   Digunakan untuk memvalidasi input agar pengguna hanya dapat memasukkan inputan dengan tipe data integer.
 * Input String
+  
   Digunakan untuk memvalidasi input agar pengguna tidak dapat mengosongkan inputan.
 * Input Pilihan
+  
   Digunakan untuk memvalidasi input agar pengguna memilih nomor pilihan menu dengan benar.
 * Input Status
+  
   Digunakan untuk memvalidasi input agar pengguna dapat memilih status kelas pilates dengan benar yang terdiri dari Terjadwal, Selesai, dan Batal.
 * Input Nomor Telepon
+  
   Digunakan untuk memvalidasi input nomor telepon sehingga pengguna dapat memasukkan nomor telepon dengan rentang 10-12 karakter saja.
 * Input Usia
+  
   Digunakan untuk memvalidasi input usia sehingga pengguna hanya dapat memasukkan usia dengan rentang 1-100 saja.
 * Input Kapasitas
+  
   Digunakan untuk memvalidasi input kapasitas sehingga pengguna dapat memasukkan kapasitas kelas tidak lebih dari 25 orang.
 
 
