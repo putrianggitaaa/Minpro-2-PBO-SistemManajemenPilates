@@ -101,3 +101,44 @@ Inheritance dalam program ini diterapkan dengan membuat class JenisKelas.java ya
 ## Penerapan Polymorphism 
 
 Polymorphism dalam program ini diterapkan melalui method overriding pada class JenisKelasPrivate dan JenisKelasPublik yang merupakan Subclass dari JenisKelas. Kedua Subclass tersebut memiliki method yang sama dengan Superclass, tetapi dapat memberikan implementasi yang berbeda sesuai dengan karakteristik masing-masing jenis kelas. Dengan demikian, ketika method tersebut dipanggil melalui objek JenisKelas, program dapat menjalankan implementasi method sesuai dengan jenis objek yang digunakan. Penerapan polymorphism ini membuat program lebih fleksibel karena satu method dapat memiliki perilaku yang berbeda pada masing-masing Subclass.
+
+## Dokumentasi Program 
+Adapun dokumentasi dari alur program yaitu sebagai berikut:
+
+### Tampilan Menu Utama
+
+<img width="560" height="276" alt="image" src="https://github.com/user-attachments/assets/9f24b780-4369-461f-8b09-e1c7a4b8515e" />
+
+Ketika program dijalankan, pengguna akan diberikan beberapa pilihan menu yang dapat digunakan untuk mengelola data. Terdapat menu member yang berfungsi untuk mengelola data member, menu Instruktur yang digunakan untuk mengelola data instruktur, menu jenis kelas yang digunakan untuk mengelola jenis kelas yang tersedia, serta menu pendaftaran kelas yang digunakan untuk mengelola daftar kelas yang akan dilaksanakan di studio pilates ini.
+
+### Menu Member
+
+<img width="523" height="232" alt="image" src="https://github.com/user-attachments/assets/eb119f87-0417-479e-b689-8b81ce2b4249" />
+
+Menu member berisi 2 sub menu yaitu lihat dan tambah member yang fungsinya sebagai berikut:
+
+* **1. Tambah Member**
+
+
+* **2. Lihat Member**
+* **3. Kembali**
+  
+### Menu Instruktur
+
+* **1. Tambah Instruktur**
+* **2. Lihat Instruktur**
+* **3. Kembali**
+  
+### Menu Jenis Kelas
+
+* **1. Tambah Jenis Kelas**
+* **2. Lihat Jenis Kelas**
+* **3. Kembali**
+
+### Menu Daftar Kelas
+
+* **1. Tambah Instruktur**
+* **2. Lihat Instruktur**
+* **3. Kembali**
+  
+### Menu Keluar dari Program
