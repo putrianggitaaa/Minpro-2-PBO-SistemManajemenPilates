@@ -42,7 +42,7 @@ JenisKelasPublik.java adalah class model yang berisi data khusus jenis kelas pub
 
 KelasPilates.java adalah class model yang berisi data kelas yang akan dilaksanakan beserta member yang melaksanakan kelas, instruktur yang memandu kelas, serta jenis kelas nya. Class ini juga memuat waktu kapan kelas tersebut dilaksanakan. Atribut yang berada dalam class ini, yaitu ID Kelas, ID Member, ID Instruktur, ID Jenis, Tanggal, Waktu, dan status.
 
-### 2. Service
+### 2. Package service
 
 Package `service` digunakan untuk menangani proses dan logika yang terdapat dalam program. Package ini terdiri dari:
 
@@ -73,28 +73,27 @@ Class 'InputValidator` digunakan untuk melakukan validasi terhadap input penggun
   
   Digunakan untuk memvalidasi input usia sehingga pengguna hanya dapat memasukkan usia dengan rentang 1-100 saja.
 * Input Kapasitas
+
   
   Digunakan untuk memvalidasi input kapasitas sehingga pengguna dapat memasukkan kapasitas kelas tidak lebih dari 25 orang.
 
 
-Class `Service` menangani proses utama seperti **CRUD (Create, Read, Update, Delete)** pada data member, instruktur, jenis kelas, dan kelas Pilates. Class ini juga mengatur proses pencarian data, pengecekan ID, penambahan data, perubahan data, dan penghapusan data.
+### 3. Package main
 
-Sementara itu, `InputValidator` digunakan untuk melakukan validasi terhadap input pengguna, seperti validasi angka, pilihan menu, jenis kelamin, nomor telepon, usia, kapasitas, dan status kelas.
+Package `main` berisi class `PilatesMinpro2` yang digunakan sebagai entry point atau titik awal program. Class ini digunakan untuk menjalankan program dan mengatur alur utama interaksi pengguna dengan sistem. Bagian `main` juga menghubungkan pengguna dengan proses yang terdapat pada `Service`, sehingga pengguna dapat memilih menu dan menjalankan fitur-fitur yang tersedia pada program.
 
-Package `service` berperan sebagai bagian **Controller** karena menangani proses dan logika program berdasarkan input yang diberikan oleh pengguna.
+## Alur Program
+Alur program dimulai ketika pengguna menjalankan program melalui class Pilates.java sebagai class utama. Setelah program dijalankan, sistem akan menampilkan halaman utama  yang berisi beberapa pilihan menu.
+Pengguna dapat memilih menu dengan menginput angka sesuai dengan pilihan yang tersedia. Sistem kemudian menggunakan percabangan switch-case untuk menentukan proses yang akan dijalankan.
 
-### 3. Main
+Jika pengguna memilih menu Member, sistem akan mengarahkan pengguna ke proses lihat atau tambah data member. Jika memilih Instruktur, sistem akan mengarahkan pengguna ke proses lihat atau tambah data instruktur. Jika memilih Jenis Kelas, sistem akan mengarahkan pengguna ke proses lihat atau tambah data Jenis Kelas. Apabila pengguna memilih menu daftar kelas, maka akan diarahkan ke lihat daftar kelas yang sudah ada, menambahkan daftar kelas baru, menghapus daftar kelas yang sudah ada, dan melakukan update pada data daftar kelas. 
 
-Package `main` berisi class `PilatesMinpro2` yang digunakan sebagai **entry point** atau titik awal program. Class ini digunakan untuk menjalankan program dan mengatur alur utama interaksi pengguna dengan sistem.
+Program akan terus berjalan dan menampilkan kembali menu utama selama pengguna belum memilih menu Keluar. Dengan demikian, pengguna dapat melakukan beberapa proses pengelolaan data dalam satu kali menjalankan program.
 
-Bagian `main` juga menghubungkan pengguna dengan proses yang terdapat pada `Service`, sehingga pengguna dapat memilih menu dan menjalankan fitur-fitur yang tersedia pada program.
+## Penerapan Encapsulation
 
-### 4. Alur Penerapan MVC
+Konsep encapsulation diterapkan pada class Member, Instruktur, JenisKelas, JenisKelasPrivate, JenisKelasPublik, dan KelasPilates dengan menjadikan atribut-atribut di dalamnya sebagai private. Atribut tersebut tidak dapat diakses secara langsung dari class lain, sehingga akses data dilakukan melalui getter dan setter yang telah disediakan. Selain itu, class Service juga menerapkan encapsulation pada atribut seperti daftarMember, daftarInstruktur, daftarJenisKelas, dan daftarKelas, sedangkan class InputValidator menerapkannya pada atribut scanner. Penggunaan encapsulation berfungsi untuk melindungi dan membatasi akses langsung terhadap data, sehingga perubahan maupun pengambilan data harus dilakukan melalui method yang telah ditentukan dan data menjadi lebih terkontrol.
 
-Secara sederhana, penerapan MVC pada program dapat digambarkan sebagai berikut:
+## Penerapan Inheritance
 
-**User → Main → Service → Model**
-
-Input dari pengguna diterima melalui bagian `main`, kemudian diteruskan ke class `Service` untuk diproses. `Service` akan mengelola data yang terdapat pada class-class di package `model`. Hasil dari proses tersebut kemudian ditampilkan kembali kepada pengguna melalui bagian `main`.
-
-Dengan pembagian tersebut, masing-masing package memiliki tanggung jawab yang berbeda. `model` berfokus pada representasi data, `service` menangani proses dan logika program, sedangkan `main` menjadi bagian utama yang mengatur jalannya program dan interaksi dengan pengguna.
+Inheritance dalam program ini diterapkan dengan membuat class JenisKelas.java yang bertindak sebagai Superclass dan class JenisKelasPrivate.java serta JenisKelasPublik.java yang bertindak sebagai Subclass. Kedua class yang bertindak sebagai Subclass tersebut mewarisi atribut dari Superclass nya, yaitu JenisKelas.java. Pada JenisKelasPrivate.java terdapat tambahan atribut khusus yaitu jenisSesi dan untuk JenisKelasPublik.java terdapat tambahan atribut khusus yaitu kapasitas. 
